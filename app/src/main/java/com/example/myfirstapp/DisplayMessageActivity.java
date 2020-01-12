@@ -6,7 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.android.volley.RequestQueue;
+
+import org.w3c.dom.Text;
+
 public class DisplayMessageActivity extends AppCompatActivity {
+    private TextView internetTextView;
+    private RequestQueue mQueue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
